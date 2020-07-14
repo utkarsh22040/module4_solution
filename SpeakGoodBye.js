@@ -18,8 +18,8 @@
 // STEP 8: Rewrite the 'speak' function such that it is attached to the
 // byeSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
-function byeSpeaker.speak(byeSpeaker.name) {
-  console.log(speakWord + " " + byeSpeaker.name);
+function byeSpeaker.speak(name) {
+  console.log(speakWord + " " + name);
 }
   window.byeSpeaker = byeSpeaker;
 })(window);
